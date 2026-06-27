@@ -9,13 +9,32 @@
     <itunes:summary>Mes podcasts d'apprentissage, tous sujets confondus (branding, technologie, gestion, culture…), générés par NotebookLM.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Sat, 27 Jun 2026 21:51:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 22:00:51 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png</url>
       <title>Apprentissage — Isabelle</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
-
+    <item>
+      <title>Cloudflare pour l'architecture Hermès de La Tanière</title>
+      <description>Topo exhaustif des services Cloudflare et leur utilité concrète pour l'architecture souveraine de La Tanière (agent Hermès, VPS/Docker/Appstrate, Zero Trust, bot management, edge, conformité Loi 25).</description>
+      <itunes:summary>Topo exhaustif des services Cloudflare et leur utilité concrète pour l'architecture souveraine de La Tanière (agent Hermès, VPS/Docker/Appstrate, Zero Trust, bot management, edge, conformité Loi 25).</itunes:summary>
+      <pubDate>Sat, 27 Jun 2026 17:49:15 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/apprentissage/aeb60ced-c440-40bd-bf15-69ed58057e1f.mp3" length="35366499" type="audio/mpeg"/>
+      <guid isPermaLink="false">aeb60ced-c440-40bd-bf15-69ed58057e1f</guid>
+      <itunes:duration>00:18:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Marque personnelle : les concepts de Florence Brouillard</title>
+      <description>Topo exhaustif des concepts de marque personnelle (personal branding) partagés par Florence Brouillard (approche BROUILLARD), reliés aux fondateurs du domaine (Tom Peters, William Arruda).</description>
+      <itunes:summary>Topo exhaustif des concepts de marque personnelle (personal branding) partagés par Florence Brouillard (approche BROUILLARD), reliés aux fondateurs du domaine (Tom Peters, William Arruda).</itunes:summary>
+      <pubDate>Sat, 27 Jun 2026 17:46:16 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/apprentissage/5ae0cebe-030b-40ae-9018-04fa93386cf1.mp3" length="30718926" type="audio/mpeg"/>
+      <guid isPermaLink="false">5ae0cebe-030b-40ae-9018-04fa93386cf1</guid>
+      <itunes:duration>00:15:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>

@@ -9,13 +9,22 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Sat, 27 Jun 2026 21:51:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 22:00:51 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
-
+    <item>
+      <title>Quand l'IA prend enfin les commandes</title>
+      <description>Daily News — Tech &amp; IA — Quand l'IA prend enfin les commandes.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — Quand l'IA prend enfin les commandes.</itunes:summary>
+      <pubDate>Sat, 27 Jun 2026 17:46:12 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/37a3cd80-5792-4a2d-a836-3f5a247113b7.mp3" length="27923211" type="audio/mpeg"/>
+      <guid isPermaLink="false">37a3cd80-5792-4a2d-a836-3f5a247113b7</guid>
+      <itunes:duration>00:14:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
