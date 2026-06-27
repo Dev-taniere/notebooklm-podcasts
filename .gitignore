@@ -1,3 +1,4 @@
 *.token
 .gh_token
 feed_config.local.json
+_cover/cover_raw.png

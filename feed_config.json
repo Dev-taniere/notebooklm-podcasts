@@ -4,5 +4,5 @@
   "title": "NotebookLM — Audiovisuel (Isabelle)",
   "author": "Isabelle Larouche",
   "description": "Aperçus audio (podcasts) générés par NotebookLM à partir du notebook « Audiovisuel » — découvrabilité de la musique québécoise et promotion croisée avec l'audiovisuel.",
-  "cover_url": ""
+  "cover_url": "https://dev-taniere.github.io/notebooklm-podcasts/cover.png"
 }

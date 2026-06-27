@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1500px; height:1500px; }
+  body {
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    width:1500px; height:1500px; position:relative; overflow:hidden;
+    background:
+      radial-gradient(120% 90% at 78% 18%, #3b1d6e 0%, rgba(59,29,110,0) 55%),
+      radial-gradient(110% 100% at 12% 92%, #0c4a6e 0%, rgba(12,74,110,0) 50%),
+      linear-gradient(150deg, #0a0e1f 0%, #120a26 55%, #0a0e1f 100%);
+  }
+  /* waveform en arrière-plan */
+  .waves { position:absolute; left:0; right:0; bottom:0; height:560px; display:flex; align-items:flex-end; justify-content:center; gap:14px; opacity:.22; padding:0 90px; }
+  .waves span { width:20px; border-radius:12px; background:linear-gradient(180deg,#22d3ee,#d946ef); }
+  .grain { position:absolute; inset:0; background:radial-gradient(circle at 50% 40%, rgba(255,255,255,.05), transparent 60%); }
+
+  .stage { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:0 120px; }
+
+  /* écran + bouton play */
+  .screen {
+    width:420px; height:300px; border-radius:46px; margin-bottom:74px;
+    background:linear-gradient(150deg, rgba(34,211,238,.18), rgba(217,70,239,.18));
+    border:6px solid rgba(255,255,255,.16);
+    box-shadow: 0 40px 120px rgba(217,70,239,.35), inset 0 0 60px rgba(34,211,238,.18);
+    display:flex; align-items:center; justify-content:center; position:relative;
+  }
+  .play {
+    width:0; height:0; margin-left:18px;
+    border-top:62px solid transparent; border-bottom:62px solid transparent;
+    border-left:104px solid #fff; filter:drop-shadow(0 8px 24px rgba(0,0,0,.4));
+  }
+  /* petites notes / ondes autour de l'écran */
+  .ring { position:absolute; border:5px solid rgba(255,255,255,.10); border-radius:60px; }
+  .r1 { width:560px; height:430px; }
+  .r2 { width:700px; height:560px; border-color:rgba(255,255,255,.05); }
+
+  .kicker { font-size:34px; letter-spacing:14px; font-weight:700; color:#22d3ee; text-transform:uppercase; margin-bottom:26px; }
+  h1 {
+    font-size:188px; line-height:.92; font-weight:800; letter-spacing:-3px;
+    background:linear-gradient(92deg,#ffffff 0%, #e9d5ff 50%, #a5f3fc 100%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+    text-shadow:0 2px 40px rgba(165,243,252,.15);
+  }
+  .sub { margin-top:40px; font-size:46px; font-weight:600; color:#e7e9f3; letter-spacing:.5px; }
+  .sub b { color:#f0abfc; font-weight:700; }
+  .foot { position:absolute; bottom:70px; left:0; right:0; text-align:center; font-size:30px; letter-spacing:6px; color:rgba(255,255,255,.55); text-transform:uppercase; font-weight:600; }
+  .dot { color:#22d3ee; }
+</style>
+</head>
+<body>
+  <div class="waves" id="waves"></div>
+  <div class="grain"></div>
+  <div class="stage">
+    <div class="screen">
+      <div class="ring r1"></div>
+      <div class="ring r2"></div>
+      <div class="play"></div>
+    </div>
+    <div class="kicker">Musique &nbsp;×&nbsp; Écran</div>
+    <h1>AUDIO&shy;VISUEL</h1>
+    <div class="sub">Découvrabilité de la <b>musique québécoise</b></div>
+  </div>
+  <div class="foot">NotebookLM <span class="dot">•</span> Isabelle Larouche</div>
+  <script>
+    // barres de waveform pseudo-aléatoires mais déterministes
+    const w = document.getElementById('waves');
+    const heights = [120,210,90,300,160,380,240,430,300,500,360,470,300,540,380,470,300,420,220,360,150,300,120,240,90,200,140,310,200,120];
+    heights.forEach(h=>{const s=document.createElement('span');s.style.height=h+'px';w.appendChild(s);});
+  </script>
+</body>
+</html>
