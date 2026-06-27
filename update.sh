@@ -4,9 +4,13 @@
 # Idempotent : ne télécharge que les artefacts audio absents de episodes.json.
 set -euo pipefail
 
+# PATH complet (cron/launchd ont un PATH minimal)
+export PATH="/opt/homebrew/bin:$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+
 REPO="$HOME/notebooklm-podcasts"
 cd "$REPO"
 
+TOKEN_FILE="$HOME/.config/notebooklm-podcasts/gh_token"
 NB="$(python3 -c 'import json;print(json.load(open("feed_config.json"))["notebook_id"])')"
 NLM="$(command -v notebooklm || echo "$HOME/.local/bin/notebooklm")"
 
@@ -15,15 +19,11 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] Sync notebook $NB"
 # Liste des artefacts audio prêts
 ARTI_JSON="$("$NLM" artifact list -n "$NB" --json 2>/dev/null)"
 
-python3 - "$ARTI_JSON" <<'PY'
+python3 - "$ARTI_JSON" "$NB" "$NLM" <<'PY'
 import json, os, subprocess, sys
-arti = json.loads(sys.argv[1])
+arti = json.loads(sys.argv[1]); nb = sys.argv[2]; nlm = sys.argv[3]
 eps = json.load(open("episodes.json")) if os.path.exists("episodes.json") else []
 known = {e["id"] for e in eps}
-nlm = os.path.expanduser("~/.local/bin/notebooklm")
-if not os.path.exists(nlm):
-    nlm = subprocess.run(["bash","-lc","command -v notebooklm"],capture_output=True,text=True).stdout.strip() or "notebooklm"
-nb = json.load(open("feed_config.json"))["notebook_id"]
 added = 0
 for a in arti.get("artifacts", []):
     if a.get("type_id") != "audio" or a.get("status") != "completed":
@@ -32,17 +32,14 @@ for a in arti.get("artifacts", []):
     if aid in known:
         continue
     dest = f"audio/{aid}.mp3"
-    print(f"  + nouveau podcast: {a['title']}  ({aid})")
-    # download by exact title to a temp path then move
     tmp = f"audio/_dl_{aid}.mp3"
-    r = subprocess.run([nlm,"download","audio","--name",a["title"],"-n",nb,tmp],
-                       capture_output=True,text=True)
-    src = tmp
-    if not os.path.exists(src):
-        # fallback: certains CLI écrivent un nom par défaut ; tenter le dernier .mp3 créé hors audio/
-        print("    (téléchargement par nom échoué, tentative --name sans chemin)", r.stderr[:200])
+    print(f"  + nouveau podcast: {a['title']} ({aid})")
+    subprocess.run([nlm,"download","audio","--name",a["title"],"-n",nb,tmp],
+                   capture_output=True,text=True)
+    if not os.path.exists(tmp):
+        print("    !! téléchargement échoué, ignoré pour ce run")
         continue
-    os.replace(src, dest)
+    os.replace(tmp, dest)
     eps.append({
         "id": aid,
         "title": a["title"],
@@ -52,15 +49,17 @@ for a in arti.get("artifacts", []):
     })
     added += 1
 json.dump(eps, open("episodes.json","w"), ensure_ascii=False, indent=2)
-print(f"  {added} nouvel(eaux) épisode(s) ajouté(s).")
+print(f"  {added} nouvel(eaux) épisode(s).")
 PY
 
 python3 build_feed.py
 
 if [[ -n "$(git status --porcelain)" ]]; then
   git add -A
-  git commit -m "Mise à jour du flux podcast ($(date '+%Y-%m-%d %H:%M'))" >/dev/null
-  git push origin main
+  git commit -q -m "Mise à jour du flux podcast ($(date '+%Y-%m-%d %H:%M'))"
+  # Push avec le jeton (helper d'identifiants en ligne, sans stocker le secret dans .git/config)
+  git -c credential.helper='!f(){ echo username=x-access-token; echo "password=$(cat '"$TOKEN_FILE"')"; }; f' \
+      push origin main
   echo "Poussé sur GitHub Pages."
 else
   echo "Aucun changement."
