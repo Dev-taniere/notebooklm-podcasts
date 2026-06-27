@@ -28,5 +28,16 @@
     "audio_dir": "audio/tech",
     "episodes": "episodes-daily-tech.json",
     "cover": "cover-tech.png"
+  },
+  {
+    "slug": "apprentissage",
+    "notebook_id": null,
+    "manual": true,
+    "title": "Apprentissage — Isabelle",
+    "description": "Mes podcasts d'apprentissage, tous sujets confondus (branding, technologie, gestion, culture…), générés par NotebookLM.",
+    "output": "feed-apprentissage.xml",
+    "audio_dir": "audio/apprentissage",
+    "episodes": "episodes-apprentissage.json",
+    "cover": "cover-apprentissage.png"
   }
 ]

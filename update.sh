@@ -18,7 +18,10 @@ import json, os, subprocess, sys
 nlm = sys.argv[1]
 feeds = json.load(open("feeds.json"))
 for feed in feeds:
-    nb = feed["notebook_id"]; epf = feed["episodes"]; adir = feed["audio_dir"]
+    nb = feed.get("notebook_id"); epf = feed["episodes"]; adir = feed["audio_dir"]
+    if feed.get("manual") or not nb:
+        print(f"  [{feed['slug']}] flux manuel — auto-sync ignoré.")
+        continue
     os.makedirs(adir, exist_ok=True)
     eps = json.load(open(epf)) if os.path.exists(epf) else []
     known = {e["id"] for e in eps}

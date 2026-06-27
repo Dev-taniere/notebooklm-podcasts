@@ -9,13 +9,22 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Sat, 27 Jun 2026 21:31:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 21:51:09 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
-
+    <item>
+      <title>La musique québécoise contre les algorithmes</title>
+      <description>Daily News — Industrie musicale — La musique québécoise contre les algorithmes.</description>
+      <itunes:summary>Daily News — Industrie musicale — La musique québécoise contre les algorithmes.</itunes:summary>
+      <pubDate>Sat, 27 Jun 2026 17:28:24 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/53e3011d-8530-40c9-9f52-11432e4fbb85.mp3" length="26250759" type="audio/mpeg"/>
+      <guid isPermaLink="false">53e3011d-8530-40c9-9f52-11432e4fbb85</guid>
+      <itunes:duration>00:13:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
