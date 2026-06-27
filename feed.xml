@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NotebookLM — Audiovisuel (Isabelle)</title>
+    <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
+    <language>fr-CA</language>
+    <description>Aperçus audio (podcasts) générés par NotebookLM à partir du notebook « Audiovisuel » — découvrabilité de la musique québécoise et promotion croisée avec l'audiovisuel.</description>
+    <itunes:author>Isabelle Larouche</itunes:author>
+    <itunes:summary>Aperçus audio (podcasts) générés par NotebookLM à partir du notebook « Audiovisuel » — découvrabilité de la musique québécoise et promotion croisée avec l'audiovisuel.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Education"/>
+    <lastBuildDate>Sat, 27 Jun 2026 21:03:19 +0000</lastBuildDate>
+    <item>
+      <title>Nos écrans au secours de nos chansons</title>
+      <description>Version brief (courte) : l'essentiel de la découvrabilité musique ↔ audiovisuel au Québec.</description>
+      <itunes:summary>Version brief (courte) : l'essentiel de la découvrabilité musique ↔ audiovisuel au Québec.</itunes:summary>
+      <pubDate>Sat, 27 Jun 2026 16:23:04 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/4edafe07-4d99-4615-af57-07a6deb3e87d.mp3" length="2711323" type="audio/mpeg"/>
+      <guid isPermaLink="false">4edafe07-4d99-4615-af57-07a6deb3e87d</guid>
+      <itunes:duration>00:01:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>L'écran pour sauver la musique québécoise</title>
+      <description>Topo deep-dive (long) : découvrabilité de la musique québécoise par la promotion croisée avec l'audiovisuel — plan du Québec, programmes de financement, cadre légal (C-11, CRTC, Loi 109), revendications de l'industrie, effet « Stranger Things ».</description>
+      <itunes:summary>Topo deep-dive (long) : découvrabilité de la musique québécoise par la promotion croisée avec l'audiovisuel — plan du Québec, programmes de financement, cadre légal (C-11, CRTC, Loi 109), revendications de l'industrie, effet « Stranger Things ».</itunes:summary>
+      <pubDate>Sat, 27 Jun 2026 16:11:09 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/4ec1c975-fc24-4d3c-9bc1-19b98be2c70e.mp3" length="26581066" type="audio/mpeg"/>
+      <guid isPermaLink="false">4ec1c975-fc24-4d3c-9bc1-19b98be2c70e</guid>
+      <itunes:duration>00:13:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
