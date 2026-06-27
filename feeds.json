@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "audiovisuel",
+    "notebook_id": "f4822a8d-99ed-4ea9-92f0-56739b7b4917",
+    "title": "NotebookLM — Audiovisuel (Isabelle)",
+    "description": "Aperçus audio (podcasts) générés par NotebookLM à partir du notebook « Audiovisuel » — découvrabilité de la musique québécoise et promotion croisée avec l'audiovisuel.",
+    "output": "feed.xml",
+    "audio_dir": "audio",
+    "episodes": "episodes-audiovisuel.json",
+    "cover": "cover.png"
+  },
+  {
+    "slug": "daily-musique",
+    "notebook_id": "c4d336a2-ae61-44fd-9839-2511d455db6c",
+    "title": "Daily News — Industrie musicale",
+    "description": "Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.",
+    "output": "feed-musique.xml",
+    "audio_dir": "audio/musique",
+    "episodes": "episodes-daily-musique.json",
+    "cover": "cover-musique.png"
+  },
+  {
+    "slug": "daily-tech",
+    "notebook_id": "038db897-be66-45f5-aa0f-d715d6d883e6",
+    "title": "Daily News — Tech & IA",
+    "description": "Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.",
+    "output": "feed-tech.xml",
+    "audio_dir": "audio/tech",
+    "episodes": "episodes-daily-tech.json",
+    "cover": "cover-tech.png"
+  }
+]

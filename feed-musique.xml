@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Daily News — Industrie musicale</title>
+    <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
+    <language>fr-CA</language>
+    <description>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</description>
+    <itunes:author>Isabelle Larouche</itunes:author>
+    <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Education"/>
+    <lastBuildDate>Sat, 27 Jun 2026 21:31:57 +0000</lastBuildDate>
+    <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
+    <image>
+      <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
+      <title>Daily News — Industrie musicale</title>
+      <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
+    </image>
+
+  </channel>
+</rss>
