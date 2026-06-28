@@ -9,7 +9,7 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Sun, 28 Jun 2026 13:08:15 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 13:09:53 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
@@ -24,16 +24,6 @@
       <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/50a6a53a-0ed2-4b35-96ac-ba85428893a3.mp3" length="45068033" type="audio/mpeg"/>
       <guid isPermaLink="false">50a6a53a-0ed2-4b35-96ac-ba85428893a3</guid>
       <itunes:duration>00:23:20</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Pourquoi les pros délaissent ChatGPT</title>
-      <description>Daily News — Tech &amp; IA — Pourquoi les pros délaissent ChatGPT.</description>
-      <itunes:summary>Daily News — Tech &amp; IA — Pourquoi les pros délaissent ChatGPT.</itunes:summary>
-      <pubDate>Sun, 28 Jun 2026 08:43:56 +0000</pubDate>
-      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/1a306394-0174-4d0e-9bc7-5e0a1549fb57.mp3" length="36059236" type="audio/mpeg"/>
-      <guid isPermaLink="false">1a306394-0174-4d0e-9bc7-5e0a1549fb57</guid>
-      <itunes:duration>00:18:40</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
