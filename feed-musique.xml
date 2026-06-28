@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Sun, 28 Jun 2026 12:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 13:08:15 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Comment Nuits d'Afrique a conquis Montréal</title>
+      <description>Daily News — Industrie musicale — Comment Nuits d'Afrique a conquis Montréal.</description>
+      <itunes:summary>Daily News — Industrie musicale — Comment Nuits d'Afrique a conquis Montréal.</itunes:summary>
+      <pubDate>Sun, 28 Jun 2026 08:56:23 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/25ed95ba-c66c-4229-a2c0-cce22c8842e6.mp3" length="32756796" type="audio/mpeg"/>
+      <guid isPermaLink="false">25ed95ba-c66c-4229-a2c0-cce22c8842e6</guid>
+      <itunes:duration>00:16:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>La musique québécoise contre les algorithmes</title>
       <description>Daily News — Industrie musicale — La musique québécoise contre les algorithmes.</description>
