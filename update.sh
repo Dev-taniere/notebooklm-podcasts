@@ -14,8 +14,12 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] Sync multi-flux"
 
 # Pour chaque flux : récupérer la liste d'artefacts audio et télécharger les nouveaux
 python3 - "$NLM" <<'PY'
-import json, os, subprocess, sys
+import json, os, subprocess, sys, shutil, re
 nlm = sys.argv[1]
+# Archive humaine des MP3 (jamais sur le Bureau) :
+ARCHIVE = os.path.expanduser("~/Dropbox/_TANIÈRE/TANIÈRE_ISABELLE/Podcasts")
+os.makedirs(ARCHIVE, exist_ok=True)
+def safe(s): return re.sub(r'[^\w\-]+','-', s).strip('-')[:80]
 feeds = json.load(open("feeds.json"))
 for feed in feeds:
     nb = feed.get("notebook_id"); epf = feed["episodes"]; adir = feed["audio_dir"]
@@ -43,6 +47,11 @@ for feed in feeds:
         if not os.path.exists(tmp):
             print(f"  [{feed['slug']}] téléchargement échoué: {a['title']}"); continue
         os.replace(tmp, dest)
+        # Archive Dropbox (nom lisible) — jamais sur le Bureau
+        try:
+            shutil.copy2(dest, os.path.join(ARCHIVE, f"{safe(feed['slug'])}-{safe(a['title'])}.mp3"))
+        except Exception as ex:
+            print(f"    (archive Dropbox échouée: {ex})")
         eps.append({"id":aid,"title":a["title"],"file":dest,
                     "pubDate":a.get("created_at",""),
                     "description":f"{feed['title']} — {a['title']}."})
