@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 02 Jul 2026 12:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 23:29:24 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Du monolithe ChatGPT à la ruche</title>
+      <description>Daily News — Tech &amp; IA — Du monolithe ChatGPT à la ruche.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — Du monolithe ChatGPT à la ruche.</itunes:summary>
+      <pubDate>Thu, 02 Jul 2026 19:17:23 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/f164601d-b06c-47c4-88dd-37025df1ee6b.mp3" length="52876623" type="audio/mpeg"/>
+      <guid isPermaLink="false">f164601d-b06c-47c4-88dd-37025df1ee6b</guid>
+      <itunes:duration>00:27:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>L'effondrement du monopole de ChatGPT</title>
       <description>Daily News — Tech &amp; IA — L'effondrement du monopole de ChatGPT.</description>
