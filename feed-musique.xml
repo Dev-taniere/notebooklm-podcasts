@@ -9,13 +9,33 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 09 Jul 2026 18:44:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 23:33:27 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Comment s’achètent les spectacles de demain</title>
+      <description>Daily News — Industrie musicale — Comment s’achètent les spectacles de demain.</description>
+      <itunes:summary>Daily News — Industrie musicale — Comment s’achètent les spectacles de demain.</itunes:summary>
+      <pubDate>Thu, 09 Jul 2026 19:21:35 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/ea9c2168-06f8-4ab0-86d0-f9513896844b.mp3" length="31388505" type="audio/mpeg"/>
+      <guid isPermaLink="false">ea9c2168-06f8-4ab0-86d0-f9513896844b</guid>
+      <itunes:duration>00:16:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Comment RIDEAU choisit vos futurs spectacles</title>
+      <description>Daily News — Industrie musicale — Comment RIDEAU choisit vos futurs spectacles.</description>
+      <itunes:summary>Daily News — Industrie musicale — Comment RIDEAU choisit vos futurs spectacles.</itunes:summary>
+      <pubDate>Thu, 09 Jul 2026 19:12:51 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/373414a1-261a-453d-b167-a21a8972ce48.mp3" length="17126170" type="audio/mpeg"/>
+      <guid isPermaLink="false">373414a1-261a-453d-b167-a21a8972ce48</guid>
+      <itunes:duration>00:08:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Comment Nuits d'Afrique a conquis Montréal</title>
       <description>Daily News — Industrie musicale — Comment Nuits d'Afrique a conquis Montréal.</description>

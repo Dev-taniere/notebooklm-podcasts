@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 09 Jul 2026 18:44:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 23:33:27 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>ChatGPT détrôné par les agents autonomes</title>
+      <description>Daily News — Tech &amp; IA — ChatGPT détrôné par les agents autonomes.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — ChatGPT détrôné par les agents autonomes.</itunes:summary>
+      <pubDate>Thu, 09 Jul 2026 19:00:42 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/14f845e5-4bf1-4e7e-b91c-27b5a29316d5.mp3" length="39244274" type="audio/mpeg"/>
+      <guid isPermaLink="false">14f845e5-4bf1-4e7e-b91c-27b5a29316d5</guid>
+      <itunes:duration>00:20:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Du monolithe ChatGPT à la ruche</title>
       <description>Daily News — Tech &amp; IA — Du monolithe ChatGPT à la ruche.</description>
