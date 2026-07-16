@@ -9,13 +9,23 @@
     <itunes:summary>Mes podcasts d'apprentissage, tous sujets confondus (branding, technologie, gestion, culture…), générés par NotebookLM.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 16 Jul 2026 12:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 21:22:51 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png</url>
       <title>Apprentissage — Isabelle</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Comment fonctionne l'algorithme de Spotify en 2026</title>
+      <description>Comment fonctionne l'algorithme de Spotify en 2026.</description>
+      <itunes:summary>Comment fonctionne l'algorithme de Spotify en 2026.</itunes:summary>
+      <pubDate>Thu, 16 Jul 2026 17:22:49 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/apprentissage/240afdc2-db7b-4df7-b69e-f25c1b08cb56.mp3" length="26815752" type="audio/mpeg"/>
+      <guid isPermaLink="false">240afdc2-db7b-4df7-b69e-f25c1b08cb56</guid>
+      <itunes:duration>00:13:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>9660 dollars de jetons en un mois</title>
       <description>Examen détaillé (deep dive) sur comment TANIÈRE peut optimiser son utilisation de jetons IA (Claude Code et agents), basé sur le rapport d'analyse de juillet 2026. Angle : comment réduire l'utilisation de jetons sans nuire au travail.</description>
