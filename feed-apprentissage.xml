@@ -9,13 +9,23 @@
     <itunes:summary>Mes podcasts d'apprentissage, tous sujets confondus (branding, technologie, gestion, culture…), générés par NotebookLM.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 06 Aug 2026 12:40:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 17:11:05 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png</url>
       <title>Apprentissage — Isabelle</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Comment fonctionne l'algorithme de Spotify en 2026 (corrigé)</title>
+      <description>Comment fonctionne l'algorithme de Spotify en 2026 (corrigé).</description>
+      <itunes:summary>Comment fonctionne l'algorithme de Spotify en 2026 (corrigé).</itunes:summary>
+      <pubDate>Thu, 06 Aug 2026 13:11:03 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/apprentissage/c6557ee8-d95c-42bd-8ab2-af309329d922.mp3" length="32055095" type="audio/mpeg"/>
+      <guid isPermaLink="false">c6557ee8-d95c-42bd-8ab2-af309329d922</guid>
+      <itunes:duration>00:16:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Mémoire de la SPACQ-AE sur le Plan stratégique 2027-2031 de la SODEC</title>
       <description>Topo des six recommandations du mémoire déposé par la SPACQ-AE le 13 juin 2026 dans la consultation sur le Plan stratégique 2027-2031 de la SODEC (enveloppe PAPEMS des artistes entrepreneurs, reconnaissance, sièges au conseil d'administration, outils financiers, complémentarité avec le CALQ, propriété intellectuelle et édition musicale), puis recoupement avec la contribution que TANIÈRE a elle-même déposée à la même consultation : convergences, divergences et points de friction.</description>
