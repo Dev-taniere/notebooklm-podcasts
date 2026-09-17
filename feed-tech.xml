@@ -9,13 +9,33 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 17 Sep 2026 12:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 23:37:44 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>L'IA ne discute plus elle exécute</title>
+      <description>Daily News — Tech &amp; IA — L'IA ne discute plus elle exécute.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — L'IA ne discute plus elle exécute.</itunes:summary>
+      <pubDate>Thu, 17 Sep 2026 23:11:19 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/8f0126d0-49e0-49ba-98c6-3188f8cd893f.mp3" length="32302481" type="audio/mpeg"/>
+      <guid isPermaLink="false">8f0126d0-49e0-49ba-98c6-3188f8cd893f</guid>
+      <itunes:duration>00:16:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>L'IA autonome entre puissance et paranoïa</title>
+      <description>Daily News — Tech &amp; IA — L'IA autonome entre puissance et paranoïa.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — L'IA autonome entre puissance et paranoïa.</itunes:summary>
+      <pubDate>Thu, 17 Sep 2026 23:03:01 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/09518599-41bf-4607-b15a-35ea783394c5.mp3" length="35314837" type="audio/mpeg"/>
+      <guid isPermaLink="false">09518599-41bf-4607-b15a-35ea783394c5</guid>
+      <itunes:duration>00:18:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>ChatGPT détrôné par les agents autonomes</title>
       <description>Daily News — Tech &amp; IA — ChatGPT détrôné par les agents autonomes.</description>

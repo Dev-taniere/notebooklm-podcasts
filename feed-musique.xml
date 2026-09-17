@@ -9,13 +9,33 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 17 Sep 2026 12:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 23:37:44 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Dix ans de silence contre Spotify</title>
+      <description>Daily News — Industrie musicale — Dix ans de silence contre Spotify.</description>
+      <itunes:summary>Daily News — Industrie musicale — Dix ans de silence contre Spotify.</itunes:summary>
+      <pubDate>Thu, 17 Sep 2026 23:28:40 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/cc7d72ba-6dfd-4ccb-b8e1-f9a6af951884.mp3" length="36246742" type="audio/mpeg"/>
+      <guid isPermaLink="false">cc7d72ba-6dfd-4ccb-b8e1-f9a6af951884</guid>
+      <itunes:duration>00:18:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Qui contrôle vraiment votre expérience musicale</title>
+      <description>Daily News — Industrie musicale — Qui contrôle vraiment votre expérience musicale.</description>
+      <itunes:summary>Daily News — Industrie musicale — Qui contrôle vraiment votre expérience musicale.</itunes:summary>
+      <pubDate>Thu, 17 Sep 2026 23:19:40 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/b027a574-fbc4-4f9e-abcf-4611cf5831c5.mp3" length="40224736" type="audio/mpeg"/>
+      <guid isPermaLink="false">b027a574-fbc4-4f9e-abcf-4611cf5831c5</guid>
+      <itunes:duration>00:20:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Comment s’achètent les spectacles de demain</title>
       <description>Daily News — Industrie musicale — Comment s’achètent les spectacles de demain.</description>

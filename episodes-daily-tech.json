@@ -26,5 +26,19 @@
     "file": "audio/tech/14f845e5-4bf1-4e7e-b91c-27b5a29316d5.mp3",
     "pubDate": "2026-07-09T19:00:42",
     "description": "Daily News — Tech & IA — ChatGPT détrôné par les agents autonomes."
+  },
+  {
+    "id": "8f0126d0-49e0-49ba-98c6-3188f8cd893f",
+    "title": "L'IA ne discute plus elle exécute",
+    "file": "audio/tech/8f0126d0-49e0-49ba-98c6-3188f8cd893f.mp3",
+    "pubDate": "2026-09-17T23:11:19+00:00",
+    "description": "Daily News — Tech & IA — L'IA ne discute plus elle exécute."
+  },
+  {
+    "id": "09518599-41bf-4607-b15a-35ea783394c5",
+    "title": "L'IA autonome entre puissance et paranoïa",
+    "file": "audio/tech/09518599-41bf-4607-b15a-35ea783394c5.mp3",
+    "pubDate": "2026-09-17T23:03:01+00:00",
+    "description": "Daily News — Tech & IA — L'IA autonome entre puissance et paranoïa."
   }
 ]
