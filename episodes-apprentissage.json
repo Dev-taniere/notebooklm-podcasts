@@ -33,5 +33,12 @@
     "file": "audio/apprentissage/c6557ee8-d95c-42bd-8ab2-af309329d922.mp3",
     "pubDate": "2026-08-06T13:11:03",
     "description": "Comment fonctionne l'algorithme de Spotify en 2026 (corrigé)."
+  },
+  {
+    "id": "1cc6bc29-1dec-4f1c-85e3-d7edb00aa54d",
+    "title": "Twitch sauve la musique de l'algorithme : ce que disent les études",
+    "file": "audio/apprentissage/1cc6bc29-1dec-4f1c-85e3-d7edb00aa54d.mp3",
+    "pubDate": "2026-09-24T15:45:42",
+    "description": "Synthèse de 24 études, rapports et analyses sur le lien entre Twitch et la découverte de la musique : Luminate, IFPI, Chartmetric, Streams Charts, programme DJ de Twitch, CNM, UQAM, et les cas Kai Cenat, DDG et Anyme023. Généré par NotebookLM le 2026-09-24."
   }
 ]
