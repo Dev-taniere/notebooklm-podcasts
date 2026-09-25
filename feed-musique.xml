@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 24 Sep 2026 19:45:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 00:29:08 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>L’architecture invisible du succès musical</title>
+      <description>Daily News — Industrie musicale — L’architecture invisible du succès musical.</description>
+      <itunes:summary>Daily News — Industrie musicale — L’architecture invisible du succès musical.</itunes:summary>
+      <pubDate>Fri, 25 Sep 2026 00:13:15 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/d04569eb-7635-408a-b758-c9ce682ec230.mp3" length="34629571" type="audio/mpeg"/>
+      <guid isPermaLink="false">d04569eb-7635-408a-b758-c9ce682ec230</guid>
+      <itunes:duration>00:17:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Dix ans de silence contre Spotify</title>
       <description>Daily News — Industrie musicale — Dix ans de silence contre Spotify.</description>

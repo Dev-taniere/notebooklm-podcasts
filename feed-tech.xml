@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 24 Sep 2026 19:45:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 00:29:08 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Pourquoi personne ne freinera l'IA</title>
+      <description>Daily News — Tech &amp; IA — Pourquoi personne ne freinera l'IA.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — Pourquoi personne ne freinera l'IA.</itunes:summary>
+      <pubDate>Fri, 25 Sep 2026 00:21:26 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/9593c6dd-23cf-4e67-a851-a0a5a834450b.mp3" length="26982341" type="audio/mpeg"/>
+      <guid isPermaLink="false">9593c6dd-23cf-4e67-a851-a0a5a834450b</guid>
+      <itunes:duration>00:13:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>L'IA ne discute plus elle exécute</title>
       <description>Daily News — Tech &amp; IA — L'IA ne discute plus elle exécute.</description>
