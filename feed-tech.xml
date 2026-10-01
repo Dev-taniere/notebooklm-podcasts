@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 01 Oct 2026 12:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 23:24:31 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Quand trop réfléchir paralyse l'IA</title>
+      <description>Daily News — Tech &amp; IA — Quand trop réfléchir paralyse l'IA.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — Quand trop réfléchir paralyse l'IA.</itunes:summary>
+      <pubDate>Thu, 01 Oct 2026 23:03:15 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/5665ee86-feb8-43d7-b2a8-2edce28f3363.mp3" length="34005562" type="audio/mpeg"/>
+      <guid isPermaLink="false">5665ee86-feb8-43d7-b2a8-2edce28f3363</guid>
+      <itunes:duration>00:17:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Pourquoi personne ne freinera l'IA</title>
       <description>Daily News — Tech &amp; IA — Pourquoi personne ne freinera l'IA.</description>
