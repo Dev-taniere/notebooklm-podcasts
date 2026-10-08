@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 08 Oct 2026 12:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 23:22:44 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Pourquoi la musique gratuite coûte cher</title>
+      <description>Daily News — Industrie musicale — Pourquoi la musique gratuite coûte cher.</description>
+      <itunes:summary>Daily News — Industrie musicale — Pourquoi la musique gratuite coûte cher.</itunes:summary>
+      <pubDate>Thu, 08 Oct 2026 23:14:28 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/16c552e1-c54e-4deb-8d1b-111068d65b0c.mp3" length="36388048" type="audio/mpeg"/>
+      <guid isPermaLink="false">16c552e1-c54e-4deb-8d1b-111068d65b0c</guid>
+      <itunes:duration>00:18:50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Des CD-R aux vitrines internationales</title>
       <description>Daily News — Industrie musicale — Des CD-R aux vitrines internationales.</description>

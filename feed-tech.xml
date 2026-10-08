@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 08 Oct 2026 12:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 23:22:45 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Pourquoi nous détestons l'IA qu'on utilise</title>
+      <description>Daily News — Tech &amp; IA — Pourquoi nous détestons l'IA qu'on utilise.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — Pourquoi nous détestons l'IA qu'on utilise.</itunes:summary>
+      <pubDate>Thu, 08 Oct 2026 23:04:53 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/e69b9476-7093-4a7d-a610-379b54af630f.mp3" length="30520098" type="audio/mpeg"/>
+      <guid isPermaLink="false">e69b9476-7093-4a7d-a610-379b54af630f</guid>
+      <itunes:duration>00:15:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Quand trop réfléchir paralyse l'IA</title>
       <description>Daily News — Tech &amp; IA — Quand trop réfléchir paralyse l'IA.</description>
