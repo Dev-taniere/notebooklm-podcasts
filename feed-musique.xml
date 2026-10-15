@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 15 Oct 2026 12:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 23:11:15 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Comment Godspeed impose ses propres règles</title>
+      <description>Daily News — Industrie musicale — Comment Godspeed impose ses propres règles.</description>
+      <itunes:summary>Daily News — Industrie musicale — Comment Godspeed impose ses propres règles.</itunes:summary>
+      <pubDate>Thu, 15 Oct 2026 23:03:14 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/bc216d97-0d4a-4404-a477-7d2b52d6c19f.mp3" length="35890289" type="audio/mpeg"/>
+      <guid isPermaLink="false">bc216d97-0d4a-4404-a477-7d2b52d6c19f</guid>
+      <itunes:duration>00:18:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Pourquoi la musique gratuite coûte cher</title>
       <description>Daily News — Industrie musicale — Pourquoi la musique gratuite coûte cher.</description>
