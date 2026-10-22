@@ -9,13 +9,23 @@
     <itunes:summary>Mes podcasts d'apprentissage, tous sujets confondus (branding, technologie, gestion, culture…), générés par NotebookLM.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 22 Oct 2026 13:41:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 17:31:22 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png</url>
       <title>Apprentissage — Isabelle</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Comment remplir les salles de spectacle (version courte)</title>
+      <description>Version resserrée (20 min) de l'aperçu audio du notebook « PROMO - Publics des arts de la scène » : hyperconcentration des revenus de billetterie au Québec, segments de publics de La Vitrine, effet d'aubaine des rabais, entonnoir de conversion, abonnements, superfans et présence physique. Redites et digressions retirées.</description>
+      <itunes:summary>Version resserrée (20 min) de l'aperçu audio du notebook « PROMO - Publics des arts de la scène » : hyperconcentration des revenus de billetterie au Québec, segments de publics de La Vitrine, effet d'aubaine des rabais, entonnoir de conversion, abonnements, superfans et présence physique. Redites et digressions retirées.</itunes:summary>
+      <pubDate>Thu, 22 Oct 2026 13:31:22 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/apprentissage/80cb1b27-6b5f-4a75-81b4-c6c953db2964-court.mp3" length="24040695" type="audio/mpeg"/>
+      <guid isPermaLink="false">80cb1b27-6b5f-4a75-81b4-c6c953db2964-court</guid>
+      <itunes:duration>00:20:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Faire connaître un artiste, bâtir sa communauté de fans et vendre des billets</title>
       <description>Faire connaître un artiste, bâtir sa communauté de fans et vendre des billets.</description>
