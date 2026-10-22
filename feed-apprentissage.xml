@@ -9,13 +9,23 @@
     <itunes:summary>Mes podcasts d'apprentissage, tous sujets confondus (branding, technologie, gestion, culture…), générés par NotebookLM.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 22 Oct 2026 12:00:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 13:41:35 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png</url>
       <title>Apprentissage — Isabelle</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Faire connaître un artiste, bâtir sa communauté de fans et vendre des billets</title>
+      <description>Faire connaître un artiste, bâtir sa communauté de fans et vendre des billets.</description>
+      <itunes:summary>Faire connaître un artiste, bâtir sa communauté de fans et vendre des billets.</itunes:summary>
+      <pubDate>Thu, 22 Oct 2026 09:41:33 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/apprentissage/017d23db-41ee-4d01-a95a-cad6a1fe03a0.mp3" length="39812139" type="audio/mpeg"/>
+      <guid isPermaLink="false">017d23db-41ee-4d01-a95a-cad6a1fe03a0</guid>
+      <itunes:duration>00:20:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Twitch sauve la musique de l'algorithme : ce que disent les études</title>
       <description>Synthèse de 24 études, rapports et analyses sur le lien entre Twitch et la découverte de la musique : Luminate, IFPI, Chartmetric, Streams Charts, programme DJ de Twitch, CNM, UQAM, et les cas Kai Cenat, DDG et Anyme023. Généré par NotebookLM le 2026-09-24.</description>

@@ -7,7 +7,9 @@
 # Usage :
 #   nouveau-podcast.sh --notebook <NOTEBOOK_ID> --feed <slug> --desc "<consigne>" \
 #        [--format deep-dive|brief|critique|debate] [--length short|default|long] \
-#        [--title "<titre affiché dans le flux>"]
+#        [--title "<titre affiché dans le flux>"] [--source <SOURCE_ID>]...
+#
+# --source (répétable) limite la génération à ces sources : utile pour un notebook de 100+ sources.
 #
 # Flux (slug) disponibles : voir feeds.json (audiovisuel, daily-musique, daily-tech, apprentissage).
 # Le slug doit exister dans feeds.json. Pour un nouveau flux, l'ajouter d'abord (voir SKILL.md).
@@ -19,7 +21,7 @@ NLM="$(command -v notebooklm || echo "$HOME/.local/bin/notebooklm")"
 TOKEN_FILE="$HOME/.config/notebooklm-podcasts/gh_token"
 ARCHIVE="$HOME/Dropbox/_TANIÈRE/TANIÈRE_ISABELLE/Podcasts"
 
-FORMAT="deep-dive"; LENGTH="long"; TITLE=""; NB=""; SLUG=""; DESC=""
+FORMAT="deep-dive"; LENGTH="long"; TITLE=""; NB=""; SLUG=""; DESC=""; SRC_ARGS=()
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --notebook) NB="$2"; shift 2;;
@@ -28,6 +30,7 @@ while [[ $# -gt 0 ]]; do
     --format) FORMAT="$2"; shift 2;;
     --length) LENGTH="$2"; shift 2;;
     --title) TITLE="$2"; shift 2;;
+    -s|--source) SRC_ARGS+=(-s "$2"); shift 2;;
     *) echo "Argument inconnu: $1"; exit 1;;
   esac
 done
@@ -42,15 +45,24 @@ print(f['audio_dir'], f['episodes'])")
 mkdir -p "$ADIR"
 
 echo "[1/5] Génération de l'aperçu audio (format=$FORMAT, length=$LENGTH)…"
-"$NLM" generate audio "$DESC" -n "$NB" --format "$FORMAT" --length "$LENGTH" --language fr --no-wait >/dev/null
+GEN_OUT="$("$NLM" generate audio "$DESC" -n "$NB" --format "$FORMAT" --length "$LENGTH" --language fr --no-wait --json ${SRC_ARGS[@]+"${SRC_ARGS[@]}"} 2>&1 || true)"
+# Suivre l'artefact demandé, pas le plus récent (NotebookLM peut générer un aperçu non demandé en parallèle)
+WANT_ID="$(printf '%s' "$GEN_OUT" | python3 -c '
+import sys,json,re
+s=sys.stdin.read(); m=re.search(r"\{[\s\S]*\}",s)
+try:
+    d=json.loads(m.group(0)); print(d.get("task_id") or d.get("artifact_id") or d.get("id") or "")
+except Exception: print("")')"
+echo "   artefact demandé : ${WANT_ID:-inconnu (repli sur le plus récent)}"
 
 echo "[2/5] Attente de la fin de génération (peut prendre 5-15 min)…"
 for i in $(seq 1 60); do
   read -r AID ASTATUS ATITLE < <("$NLM" artifact list -n "$NB" --json 2>/dev/null | python3 -c '
 import sys,json
 d=json.load(sys.stdin); a=[x for x in d.get("artifacts",[]) if x.get("type_id")=="audio"]
-a.sort(key=lambda x:x.get("created_at",""),reverse=True)
-print(a[0]["id"], a[0].get("status","?"), a[0].get("title","")) if a else print("- none -")')
+w=[x for x in a if x.get("id")==sys.argv[1]]
+a=w or sorted(a,key=lambda x:x.get("created_at",""),reverse=True)
+print(a[0]["id"], a[0].get("status","?"), a[0].get("title","")) if a else print("- none -")' "$WANT_ID")
   echo "   …statut=$ASTATUS"
   [[ "$ASTATUS" == "completed" ]] && break
   [[ "$ASTATUS" == "failed" ]] && { echo "ÉCHEC de génération."; exit 2; }
@@ -61,7 +73,7 @@ done
 
 echo "[3/5] Téléchargement du MP3…"
 DEST="$ADIR/$AID.mp3"
-"$NLM" download audio "$DEST" --name "$ATITLE" -n "$NB" >/dev/null
+"$NLM" download audio "$DEST" --artifact "$AID" -n "$NB" >/dev/null
 [[ -f "$DEST" ]] || { echo "Téléchargement échoué."; exit 4; }
 
 echo "[4/5] Ajout au flux + archive Dropbox…"
