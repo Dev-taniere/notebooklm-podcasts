@@ -68,5 +68,19 @@
     "file": "audio/musique/bc216d97-0d4a-4404-a477-7d2b52d6c19f.mp3",
     "pubDate": "2026-10-15T23:03:14+00:00",
     "description": "Daily News — Industrie musicale — Comment Godspeed impose ses propres règles."
+  },
+  {
+    "id": "957123b6-9c63-4a59-b3f2-3037bcff5713",
+    "title": "Musique québécoise contre algorithmes mondiaux",
+    "file": "audio/musique/957123b6-9c63-4a59-b3f2-3037bcff5713.mp3",
+    "pubDate": "2026-10-23T03:16:31+00:00",
+    "description": "Daily News — Industrie musicale — Musique québécoise contre algorithmes mondiaux."
+  },
+  {
+    "id": "d79a92a0-5313-4e46-aa2f-c88fd3b5c9ad",
+    "title": "Pirater les algorithmes musicaux",
+    "file": "audio/musique/d79a92a0-5313-4e46-aa2f-c88fd3b5c9ad.mp3",
+    "pubDate": "2026-10-22T16:39:45+00:00",
+    "description": "Daily News — Industrie musicale — Pirater les algorithmes musicaux."
   }
 ]

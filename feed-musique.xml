@@ -9,13 +9,33 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 22 Oct 2026 17:55:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 03:34:55 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Musique québécoise contre algorithmes mondiaux</title>
+      <description>Daily News — Industrie musicale — Musique québécoise contre algorithmes mondiaux.</description>
+      <itunes:summary>Daily News — Industrie musicale — Musique québécoise contre algorithmes mondiaux.</itunes:summary>
+      <pubDate>Fri, 23 Oct 2026 03:16:31 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/957123b6-9c63-4a59-b3f2-3037bcff5713.mp3" length="38642108" type="audio/mpeg"/>
+      <guid isPermaLink="false">957123b6-9c63-4a59-b3f2-3037bcff5713</guid>
+      <itunes:duration>00:20:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Pirater les algorithmes musicaux</title>
+      <description>Daily News — Industrie musicale — Pirater les algorithmes musicaux.</description>
+      <itunes:summary>Daily News — Industrie musicale — Pirater les algorithmes musicaux.</itunes:summary>
+      <pubDate>Thu, 22 Oct 2026 16:39:45 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/d79a92a0-5313-4e46-aa2f-c88fd3b5c9ad.mp3" length="25207545" type="audio/mpeg"/>
+      <guid isPermaLink="false">d79a92a0-5313-4e46-aa2f-c88fd3b5c9ad</guid>
+      <itunes:duration>00:13:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Comment Godspeed impose ses propres règles</title>
       <description>Daily News — Industrie musicale — Comment Godspeed impose ses propres règles.</description>

@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 22 Oct 2026 17:55:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 03:34:55 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Résoudre l'amnésie de l'IA avec SKILL.md</title>
+      <description>Daily News — Tech &amp; IA — Résoudre l'amnésie de l'IA avec SKILL.md.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — Résoudre l'amnésie de l'IA avec SKILL.md.</itunes:summary>
+      <pubDate>Fri, 23 Oct 2026 03:25:10 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/14c76cd7-2cc6-4288-8ec8-f7bd99ddb74a.mp3" length="41572290" type="audio/mpeg"/>
+      <guid isPermaLink="false">14c76cd7-2cc6-4288-8ec8-f7bd99ddb74a</guid>
+      <itunes:duration>00:21:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Pourquoi nous détestons l'IA qu'on utilise</title>
       <description>Daily News — Tech &amp; IA — Pourquoi nous détestons l'IA qu'on utilise.</description>
