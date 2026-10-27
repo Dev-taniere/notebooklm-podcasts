@@ -9,13 +9,23 @@
     <itunes:summary>Mes podcasts d'apprentissage, tous sujets confondus (branding, technologie, gestion, culture…), générés par NotebookLM.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Tue, 27 Oct 2026 12:00:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 18:46:28 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-apprentissage.png</url>
       <title>Apprentissage — Isabelle</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Pourquoi la musique québécoise échoue en streaming</title>
+      <description>L'exception québécoise : résumé de l'étude du Commissaire à la langue française, de la recension des écrits et du webinaire du 27 octobre 2026.</description>
+      <itunes:summary>L'exception québécoise : résumé de l'étude du Commissaire à la langue française, de la recension des écrits et du webinaire du 27 octobre 2026.</itunes:summary>
+      <pubDate>Tue, 27 Oct 2026 14:46:27 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/apprentissage/21fee937-00e0-4f75-a2f3-9375b72d5add.mp3" length="29700546" type="audio/mpeg"/>
+      <guid isPermaLink="false">21fee937-00e0-4f75-a2f3-9375b72d5add</guid>
+      <itunes:duration>00:15:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Spectacle ou album : qui fait la promotion de qui ?</title>
       <description>Spectacle ou album : qui fait la promotion de qui ?.</description>
