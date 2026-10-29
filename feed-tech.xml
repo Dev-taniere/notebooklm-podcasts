@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 29 Oct 2026 12:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 23:11:20 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>L'abandon du web public pour l'IA</title>
+      <description>Daily News — Tech &amp; IA — L'abandon du web public pour l'IA.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — L'abandon du web public pour l'IA.</itunes:summary>
+      <pubDate>Thu, 29 Oct 2026 23:03:16 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/4f4795cc-140d-4d08-818e-1aa37d339ed1.mp3" length="36673714" type="audio/mpeg"/>
+      <guid isPermaLink="false">4f4795cc-140d-4d08-818e-1aa37d339ed1</guid>
+      <itunes:duration>00:18:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Résoudre l'amnésie de l'IA avec SKILL.md</title>
       <description>Daily News — Tech &amp; IA — Résoudre l'amnésie de l'IA avec SKILL.md.</description>
