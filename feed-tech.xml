@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 05 Nov 2026 13:01:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:19:49 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>L'IA parfaite endort notre esprit critique</title>
+      <description>Daily News — Tech &amp; IA — L'IA parfaite endort notre esprit critique.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — L'IA parfaite endort notre esprit critique.</itunes:summary>
+      <pubDate>Fri, 06 Nov 2026 00:04:38 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/904dbccf-0fce-4e6e-9511-f12c35ee94e1.mp3" length="37327654" type="audio/mpeg"/>
+      <guid isPermaLink="false">904dbccf-0fce-4e6e-9511-f12c35ee94e1</guid>
+      <itunes:duration>00:19:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>L'abandon du web public pour l'IA</title>
       <description>Daily News — Tech &amp; IA — L'abandon du web public pour l'IA.</description>

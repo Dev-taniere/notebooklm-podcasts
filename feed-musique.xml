@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 05 Nov 2026 13:01:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:19:48 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Pourquoi la musique francophone perd son public</title>
+      <description>Daily News — Industrie musicale — Pourquoi la musique francophone perd son public.</description>
+      <itunes:summary>Daily News — Industrie musicale — Pourquoi la musique francophone perd son public.</itunes:summary>
+      <pubDate>Fri, 06 Nov 2026 00:12:34 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/39276fb5-5285-48a2-8f40-8b0e89f1b1fc.mp3" length="27997514" type="audio/mpeg"/>
+      <guid isPermaLink="false">39276fb5-5285-48a2-8f40-8b0e89f1b1fc</guid>
+      <itunes:duration>00:14:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Musique québécoise contre algorithmes mondiaux</title>
       <description>Daily News — Industrie musicale — Musique québécoise contre algorithmes mondiaux.</description>
