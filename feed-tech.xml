@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 12 Nov 2026 13:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 00:18:48 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Le piège des paramètres par défaut</title>
+      <description>Daily News — Tech &amp; IA — Le piège des paramètres par défaut.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — Le piège des paramètres par défaut.</itunes:summary>
+      <pubDate>Fri, 13 Nov 2026 00:10:53 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/84c5bf60-940a-44d4-8d51-dc9351353a9d.mp3" length="11583521" type="audio/mpeg"/>
+      <guid isPermaLink="false">84c5bf60-940a-44d4-8d51-dc9351353a9d</guid>
+      <itunes:duration>00:15:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>L'IA parfaite endort notre esprit critique</title>
       <description>Daily News — Tech &amp; IA — L'IA parfaite endort notre esprit critique.</description>
