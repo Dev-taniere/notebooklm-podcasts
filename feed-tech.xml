@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Fri, 20 Nov 2026 13:01:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 14:45:31 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>Nettoyer vos courriels pour l'IA</title>
+      <description>Daily News — Tech &amp; IA — Nettoyer vos courriels pour l'IA. Topo des recherches du 2026-11-20 sur l'ingestion de courriels pour des agents IA.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — Nettoyer vos courriels pour l'IA. Topo des recherches du 2026-11-20 sur l'ingestion de courriels pour des agents IA.</itunes:summary>
+      <pubDate>Fri, 20 Nov 2026 09:45:30 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/35b66944-65b8-4669-802b-3b23ba50f446.mp3" length="3527411" type="audio/mpeg"/>
+      <guid isPermaLink="false">35b66944-65b8-4669-802b-3b23ba50f446</guid>
+      <itunes:duration>00:04:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Le piège des paramètres par défaut</title>
       <description>Daily News — Tech &amp; IA — Le piège des paramètres par défaut.</description>
