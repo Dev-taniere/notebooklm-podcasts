@@ -9,13 +9,23 @@
     <itunes:summary>Tours d'horizon audio des actualités de l'industrie musicale, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 26 Nov 2026 13:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:25:20 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-musique.png</url>
       <title>Daily News — Industrie musicale</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>La résistance québécoise aux algorithmes musicaux</title>
+      <description>Daily News — Industrie musicale — La résistance québécoise aux algorithmes musicaux.</description>
+      <itunes:summary>Daily News — Industrie musicale — La résistance québécoise aux algorithmes musicaux.</itunes:summary>
+      <pubDate>Fri, 27 Nov 2026 00:10:42 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/musique/ede41c87-2426-4e99-b364-0fe18b9492d2.mp3" length="9696280" type="audio/mpeg"/>
+      <guid isPermaLink="false">ede41c87-2426-4e99-b364-0fe18b9492d2</guid>
+      <itunes:duration>00:13:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Qui paye vraiment pour la musique</title>
       <description>Daily News — Industrie musicale — Qui paye vraiment pour la musique.</description>

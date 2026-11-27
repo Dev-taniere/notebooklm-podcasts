@@ -9,13 +9,33 @@
     <itunes:summary>Tours d'horizon audio des actualités tech et intelligence artificielle, générés par NotebookLM à partir des bulletins collectés automatiquement.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Education"/>
-    <lastBuildDate>Thu, 26 Nov 2026 13:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:25:21 +0000</lastBuildDate>
     <itunes:image href="https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png"/>
     <image>
       <url>https://dev-taniere.github.io/notebooklm-podcasts/cover-tech.png</url>
       <title>Daily News — Tech &amp; IA</title>
       <link>https://dev-taniere.github.io/notebooklm-podcasts/</link>
     </image>
+    <item>
+      <title>ChatGPT peut désormais vendre vos voyages</title>
+      <description>Daily News — Tech &amp; IA — ChatGPT peut désormais vendre vos voyages.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — ChatGPT peut désormais vendre vos voyages.</itunes:summary>
+      <pubDate>Fri, 27 Nov 2026 00:17:12 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/d5764af1-7f19-40d9-99da-843533b6cb42.mp3" length="16561059" type="audio/mpeg"/>
+      <guid isPermaLink="false">d5764af1-7f19-40d9-99da-843533b6cb42</guid>
+      <itunes:duration>00:22:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>La mignonnerie comme piège des IA</title>
+      <description>Daily News — Tech &amp; IA — La mignonnerie comme piège des IA.</description>
+      <itunes:summary>Daily News — Tech &amp; IA — La mignonnerie comme piège des IA.</itunes:summary>
+      <pubDate>Fri, 27 Nov 2026 00:03:20 +0000</pubDate>
+      <enclosure url="https://dev-taniere.github.io/notebooklm-podcasts/audio/tech/fa66339c-3cc3-41d9-9409-3ccc32da1b05.mp3" length="13417873" type="audio/mpeg"/>
+      <guid isPermaLink="false">fa66339c-3cc3-41d9-9409-3ccc32da1b05</guid>
+      <itunes:duration>00:18:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>Nettoyer vos courriels pour l'IA</title>
       <description>Daily News — Tech &amp; IA — Nettoyer vos courriels pour l'IA. Topo des recherches du 2026-11-20 sur l'ingestion de courriels pour des agents IA.</description>
